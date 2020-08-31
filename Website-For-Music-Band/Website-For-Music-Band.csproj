@@ -68,14 +68,33 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about1.jpg" />
+    <Content Include="aboutus.aspx" />
+    <Content Include="ahad_jawed.aspx" />
     <Content Include="bak.jpg" />
     <Content Include="home.aspx" />
+    <Content Include="hunain_lakhani.aspx" />
     <Content Include="instructor.jpg" />
+    <Content Include="nouman.aspx" />
     <Content Include="second.PNG" />
+    <Content Include="shayan_tariq.aspx" />
     <Content Include="students.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutus.aspx.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutus.aspx.designer.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ahad_jawed.aspx.cs">
+      <DependentUpon>ahad_jawed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ahad_jawed.aspx.designer.cs">
+      <DependentUpon>ahad_jawed.aspx</DependentUpon>
+    </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -83,7 +102,28 @@
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="hunain_lakhani.aspx.cs">
+      <DependentUpon>hunain_lakhani.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hunain_lakhani.aspx.designer.cs">
+      <DependentUpon>hunain_lakhani.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nouman.aspx.cs">
+      <DependentUpon>nouman.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nouman.aspx.designer.cs">
+      <DependentUpon>nouman.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shayan_tariq.aspx.cs">
+      <DependentUpon>shayan_tariq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shayan_tariq.aspx.designer.cs">
+      <DependentUpon>shayan_tariq.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

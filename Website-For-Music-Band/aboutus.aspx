@@ -1,58 +1,138 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="Website_For_Music_Band.home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aboutus.aspx.cs" Inherits="Website_For_Music_Band.aboutus" %>
 
 <!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title></title>
-    <style>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <style type="text/css">
         html {
-                background: url(bak.jpg) no-repeat center fixed;
-                background-size: cover;
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
-                background-color: #464646;
+            background: url(about1.jpg) no-repeat center fixed;
+            background-size: cover;
             
-            }
-
+        }
         body {
-          margin: 0;
-          font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+}
+        #khizer{
+            width:400px;
+            height:250px;
+            border-radius:15px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 18px 40px 0 rgba(0, 0, 0, 0.32);
+            font-size:x-large;
+            background:rgba(45, 79, 108,0.5);
+            position:relative;
+            left:250px;
+            top:100px;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            color:cyan;
+            cursor:pointer;
+            display:block;
+            text-decoration:none;
+        }
+        #khizer:hover{
+            background:rgba(45, 79, 108,1);
+            color:aqua;
+        }
+        
+        #nouman{
+            width:460px;
+            height:250px;
+            border-radius:15px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 18px 40px 0 rgba(0, 0, 0, 0.32);
+            font-size:x-large;
+            background:rgba(105, 84, 74,0.5);
+            position:relative;
+            left:550px;
+            top:100px;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            color:cyan;
+            cursor:pointer;
+            display:block;
+            text-decoration:none;
+        }
+        #nouman:hover{
+            background:rgba(105, 84, 74,1);
+            color:aqua;
+        }
+        #zaid{
+             width:400px;
+            height:250px;
+            font-size:x-large;
+            border-radius:15px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 18px 40px 0 rgba(0, 0, 0, 0.32);
+            background:rgba(96, 135, 165,0.5);
+            position:relative;
+            left:250px;
+            top:100px;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            color:cyan;
+            cursor:pointer;
+            display:block;
+            text-decoration:none;
+        }
+        #zaid:hover{
+            background:rgba(96, 135, 165,1);
+            color:aqua;
+        }
+        #javeria{
+             width:400px;
+            height:250px;
+            font-size:x-large;
+            border-radius:15px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 18px 40px 0 rgba(0, 0, 0, 0.32);
+            background:rgba(193, 128, 113,0.5);
+            position:relative;
+            left:550px;
+            top:100px;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            color:cyan;
+            cursor:pointer;
+            display:block;
+            text-decoration:none;
+        }
+        #javeria:hover{
+            background:rgba(193, 128, 113,1);
+            color:aqua;
+        }
+        .blank{
+            width:250px;
+            height:80px;  
         }
 
-        #top {
-            width: 100%;
-            height: 850px;
-            color: white;
-            text-align:center;    
-        }
-        #second{
-            width:100%;
-            height:500px;
-            color:black;
-            background-color:white;   
-        }
-        #third{
-            width:100%;
-            height:300px;
-            background-color:rgba(111, 181, 228,0.4);     
-        }
-        #bottom{
-            width:100%;
-            height:350px;
-            background-color:rgba(0,0,0,0.9);
+        #people{
+            font-family:Helvetica;
+            color:#D8D5D5;
+            text-decoration:underline;
+            text-decoration-color:#D8D5D5;
+            text-shadow: 2px 2px 20px #5A5759;
+            font-size:100px;
+            text-align:center;
+            position:relative;
+            top:50px;
         }
 
         .topnav {
-          overflow: hidden;
-          position:fixed;
-          top:0px;
-          right:0px;
-  
+            overflow: hidden;
+            position:fixed;
+            top:0px;
+            right:0px;
         }
 
         .topnav p{
@@ -70,17 +150,20 @@
         .topnav a {
           float: right;
           display: block;
-          color: aqua;
+          color: white;
           text-align: center;
           padding: 14px 16px;
           text-decoration: none;
-          font-size: 27px;
+          font-size: 20px;
         }
 
         .topnav a:hover {
           background-color: #ddd;
           color: black;
         }
+
+
+
         .topnav .icon {
           display: none;
         }
@@ -106,90 +189,14 @@
             text-align: right;
           }
         }
-        .container1 {
-          position: relative;
-          width: 50%;
+
+        #bottom{
+            width:100%;
+            height:350px;
+            background-color:rgba(0,0,0,0.9);
         }
 
-        .image1 {
-          opacity: 1;
-          display: block;
-          width: 100%;
-          height: auto;
-          transition: .5s ease;
-          backface-visibility: hidden;
-        }
-
-        .middle1 {
-          transition: .5s ease;
-          opacity: 0;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          text-align: center;
-        }
-
-        .container1:hover .image1 {
-          opacity: 0.3;
-        }
-
-        .container1:hover .middle1 {
-          opacity: 1;
-        }
-
-        .text1 {
-          background-color: #1F2232;
-          color: aqua;
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 18px 40px 0 rgba(0, 0, 0, 0.32);
-          font-size: 40px;
-          padding: 16px 32px;
-        }
-
-
-        .container2 {
-          position: relative;
-          width: 50%;
-        }
-
-        .image2 {
-          opacity: 1;
-          display: block;
-          width: 100%;
-          height: auto;
-          transition: .5s ease;
-          backface-visibility: hidden;
-        }
-
-        .middle2 {
-          transition: .5s ease;
-          opacity: 0;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-          text-align: center;
-        }
-
-        .container2:hover .image2 {
-          opacity: 0.3;
-        }
-
-        .container2:hover .middle2 {
-          opacity: 1;
-        }
-
-        .text2 {
-  
-          background-color: #1F2232;
-          color: aqua;
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 18px 40px 0 rgba(0, 0, 0, 0.32);
-          font-size: 40px;
-          padding: 16px 32px;
-        }
-        .fa {
+         .fa {
           padding: 20px;
           font-size: 30px;
           width: 30px;
@@ -215,8 +222,11 @@
           background: #125688;
           color: white;
         }
-
+        #smallbox {
+    
+}
     </style>
+
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -226,12 +236,15 @@
                 x.className = "topnav";
             }
         }
+        
    </script>
+
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-                  
-                  <a href="aboutus.aspx">About Us</a>
+    <form id="form1" runat="server">
+
+        <div class="topnav" id="myTopnav">
+                 <a href="aboutus.aspx">About Us</a>
                   <a href="home.aspx" class="active">Home</a>
                   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -241,63 +254,49 @@
         <div style="font-size:50px; color:white; width:200px; height:50px; padding-top:50px; padding-left:50px;">
                     AttendanceTracker
                 </div>
-        <div id="top" style="line-height:200px; display:table;">
-            <div style="display:table-cell; vertical-align:middle;">
-                <div style="color:white; font-size:100px; line-height:125px;">
-                    AttendanceTracker That You Will Love<br />
-                    Your Class Is Only A Click Away...
-                </div>
-            </div>      
-        </div>
+        
+        <h1 id="people">People Who Made It Possible</h1>
 
-        <div id="second" >
-                <div style="float:left;">
-                    <p style="font-size:50px; font-weight:bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-left:50px; padding-top:50px; ">What is AttendanceTracker ?</p>
-                    <p style="font-size:30px; padding-left:50px">We built AttendanceTracker for school teachers initially,<br /> the app works perfectly
-                    for tracking attendance online for any class,<br /> group, or gathering! There are thousands of<br />
-                    others using it to track:</p>
-                </div>
-                <div style="float:right; padding-top:50px;">
-                    <img src="second.PNG" />
-                </div>
-        </div>
+            <a id="khizer" href="nouman.aspx" target="_blank" rel="noopener noreferrer" >
+                <h2>Muhammad Nauman Saleem</h2>
+                <ul>
+                    <li>21 and still counting</li>
+                    <li>Bachelors in Computer Science</li>
+                    <li>currently working in c#</li>
+                </ul>
 
+            </a>
+            <div class="blank"></div>
+            <a id="nouman" href="hunain_lakhani.aspx" target="_blank" rel="noopener noreferrer" >
+                <h2>Hunain Lakhani</h2>
+                <ul>
+                    <li>21 and still counting</li>
+                    <li>Bachelors in Computer Science</li>
+                    <li>currently working in c#</li>
+                </ul>
 
-
-        <div id="third" style="font-size:50px; color:white; padding-top:150px; text-align:center; font-style:italic;">
-            Technology is just a tool. In terms of getting the kids working<br />
-            together and motivating them, the teacher is the most<br />
-            important thing.
-            <p style="font-size:20px; color:white;">-Bill Gates-</p>
-        </div>
-
-
-
-        <div style="width:100%; height:700px; background-color:white;">
-           
-            <div style="padding-top:20px; font-size:50px; font-weight:bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align:center;">
-                Who Can Use AttendanceTracker?
-            </div>
-            
-            <div>
-                <div class="container1" style="float:left; width:40%; height:auto; padding-top:50px; padding-left:120px;">
-                     <img src="instructor.jpg" alt="Avatar" class="image1" style="width:100%">
-                  <div class="middle1" style="padding-left:120px; padding-top:70px;">
-                  <div class="text1" >Instructors</div>
-                  </div>
-                  </div>
-
-            <div class="container2" style="float:right; width:40%; height:auto; padding-top:50px; padding-right:120px;">
-                     <img src="students.jpg" alt="Avatar" class="image2" style="width:100%">
-                  <div class="middle2" style="padding-right:120px; padding-top:70px;">
-                  <div class="text2" >Students</div>
-                  </div>
-                  </div>
-            </div>
-            
-        </div>
-
-
+            </a>
+            <div class="blank"></div>
+            <a id="zaid" href="ahad_jawed.aspx" target="_blank" rel="noopener noreferrer" >
+                <h2>Ahad Jawed</h2>
+                <ul>
+                    <li>21 and still counting</li>
+                    <li>Bachelors in Computer Science</li>
+                    <li>currently working in c#</li>
+                </ul>
+            </a>
+            <div class="blank"></div>
+            <a id="javeria" href="shayan_tariq.aspx" target="_blank" rel="noopener noreferrer" >
+                <h2>Shayan Tariq</h2>
+                <ul>
+                    <li>21 and still counting</li>
+                    <li>Bachelors in Computer Science</li>
+                    <li>currently working in c#</li>
+                </ul>
+            </a>
+        <div class="blank"></div>
+        <div class="blank"></div>
+        
 
         <div id="bottom">
            <div style="width:100%; height:70px; border:double;">
@@ -363,5 +362,6 @@
                     </div>
                 </div>
         </div>
+    </form>
 </body>
 </html>
