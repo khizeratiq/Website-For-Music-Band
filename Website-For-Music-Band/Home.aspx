@@ -9,7 +9,7 @@
     <title></title>
     <style>
         html {
-                background: url(bak.jpg) no-repeat center fixed;
+                background: url(nouman.jpg) no-repeat center fixed;
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
@@ -74,7 +74,7 @@
           text-align: center;
           padding: 14px 16px;
           text-decoration: none;
-          font-size: 27px;
+          font-size: 20px;
         }
 
         .topnav a:hover {
@@ -231,6 +231,10 @@
 <body>
     <div class="topnav" id="myTopnav">
                   
+                  <a href="Videos.html">Videos</a>
+                  <a href="gallery.html">Photos</a>
+                  <a href="blog.html">News</a>
+                  <a href="Contactus.html">Contact Us</a>
                   <a href="aboutus.aspx">About Us</a>
                   <a href="home.aspx" class="active">Home</a>
                   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -238,37 +242,34 @@
                   </a>
         </div>
 
-        <div style="font-size:50px; color:white; width:200px; height:50px; padding-top:50px; padding-left:50px;">
-                    AttendanceTracker
+        <div style="font-size:50px; color:white; width:250px; height:50px; padding-top:50px; padding-left:50px;">
+                    The BlackHoods
                 </div>
         <div id="top" style="line-height:200px; display:table;">
             <div style="display:table-cell; vertical-align:middle;">
                 <div style="color:white; font-size:100px; line-height:125px;">
-                    AttendanceTracker That You Will Love<br />
-                    Your Class Is Only A Click Away...
+                    Songs That You Will Love<br />
+                    Your Memories Are Only A Click Away...
                 </div>
             </div>      
         </div>
 
         <div id="second" >
                 <div style="float:left;">
-                    <p style="font-size:50px; font-weight:bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-left:50px; padding-top:50px; ">What is AttendanceTracker ?</p>
-                    <p style="font-size:30px; padding-left:50px">We built AttendanceTracker for school teachers initially,<br /> the app works perfectly
-                    for tracking attendance online for any class,<br /> group, or gathering! There are thousands of<br />
+                    <p style="font-size:50px; font-weight:bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-left:50px; padding-top:50px; ">What We Do ?</p>
+                    <p style="font-size:30px; padding-left:50px">We sing for dreamers initially,<br /> <br /> We also play on request for schools and colleges<br />
                     others using it to track:</p>
                 </div>
                 <div style="float:right; padding-top:50px;">
-                    <img src="second.PNG" />
+                    
                 </div>
         </div>
 
 
 
         <div id="third" style="font-size:50px; color:white; padding-top:150px; text-align:center; font-style:italic;">
-            Technology is just a tool. In terms of getting the kids working<br />
-            together and motivating them, the teacher is the most<br />
-            important thing.
-            <p style="font-size:20px; color:white;">-Bill Gates-</p>
+            
+            <p style="font-size:20px; color:white;"></p>
         </div>
 
 
@@ -276,21 +277,21 @@
         <div style="width:100%; height:700px; background-color:white;">
            
             <div style="padding-top:20px; font-size:50px; font-weight:bolder; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align:center;">
-                Who Can Use AttendanceTracker?
+                Who are we?
             </div>
             
             <div>
                 <div class="container1" style="float:left; width:40%; height:auto; padding-top:50px; padding-left:120px;">
-                     <img src="instructor.jpg" alt="Avatar" class="image1" style="width:100%">
+                     <img src="7.jpg" alt="Avatar" class="image1" style="width:100%">
                   <div class="middle1" style="padding-left:120px; padding-top:70px;">
-                  <div class="text1" >Instructors</div>
+                  <div class="text1" >Students</div>
                   </div>
                   </div>
 
             <div class="container2" style="float:right; width:40%; height:auto; padding-top:50px; padding-right:120px;">
-                     <img src="students.jpg" alt="Avatar" class="image2" style="width:100%">
+                     <img src="tbh.jpeg" alt="Avatar" class="image2" style="width:100%">
                   <div class="middle2" style="padding-right:120px; padding-top:70px;">
-                  <div class="text2" >Students</div>
+                  <div class="text2" >Singers</div>
                   </div>
                   </div>
             </div>
@@ -299,69 +300,6 @@
 
 
 
-        <div id="bottom">
-           <div style="width:100%; height:70px; border:double;">
-                    <div style="float:left; color:cadetblue; font-size:25px; padding-top:30px; padding-left:100px;">
-                        Countries
-                    </div>
-                    <div style="float:left; color:cadetblue; font-size:25px; padding-top:30px; padding-left:150px;">
-                        AttendanceTracker
-                    </div>
-                    <div style="float:right; color:cadetblue; font-size:25px; padding-top:30px; padding-right:150px;">
-                        Follow Us
-                    </div>
-                    <div style="float:right; color:cadetblue; font-size:25px; padding-top:30px; padding-right:250px;">
-                        Account
-                    </div>
-                </div>
-                <div style="width:100%; height:250px; ">
-                    <div style=" float:left; color:aqua;  font-size:25px; padding-top:10px;  padding-left:30px; ">
-                        <ul style="list-style:none; text-align:center; padding-right:20px;">
-                            <li>
-                                Pakistan
-                            </li>
-                            
-                            <li>
-                                China
-                            </li>
-                            
-                            <li>
-                                Iran
-                            </li>
-                            
-                            <li>
-                                Iraq
-                            </li>
-                            <li>
-                                And Many More
-                            </li>
-                        </ul>
-                    </div>
-                    <div style=" float:left; color:aqua;  font-size:25px; padding-top:10px;  padding-left:80px;">
-                        <ul style="list-style:none; text-align:center;">
-                            <li>
-                                <a href="test.aspx" style="color:aqua; text-decoration:none;">Home</a>
-                            </li>
-                            <li>
-                                <a href="AboutUs.aspx" style="color:aqua; text-decoration:none;">About Us</a>
-                            </li>
-                            <li>
-                                <a href="Login.aspx" style="color:aqua; text-decoration:none;">Login</a>
-                            </li>
-                            <li>
-                                <a href="Signup.aspx" style="color:aqua; text-decoration:none;">Start For Free</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div style=" float:right; color:aqua;  font-size:25px; padding-top:10px;  padding-right:70px;">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook"></a>
-                        <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" class="fa fa-twitter"></a>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a>
-                    </div>
-                    <div style=" float:right; color:aqua; font-style:oblique;  font-size:25px; padding-top:20px;  padding-right:120px;">
-                        <a href="Login.aspx" style="color:aqua; text-decoration:none;">Login To Your Account</a>
-                    </div>
-                </div>
-        </div>
+        
 </body>
 </html>

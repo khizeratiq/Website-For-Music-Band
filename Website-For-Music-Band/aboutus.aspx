@@ -10,14 +10,15 @@
 
     <style type="text/css">
         html {
-            background: url(about1.jpg) no-repeat center fixed;
+            background: url(Shayan1.jpeg) no-repeat center fixed;
             background-size: cover;
             
         }
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-}
+        }
+        
         #khizer{
             width:400px;
             height:250px;
@@ -244,7 +245,12 @@
     <form id="form1" runat="server">
 
         <div class="topnav" id="myTopnav">
-                 <a href="aboutus.aspx">About Us</a>
+                  
+                  <a href="videos.html">Videos</a>
+                  <a href="photos.html">Photos</a>
+                  <a href="news.html">News</a>
+                  <a href="Contactus.html">Contact Us</a>
+                  <a href="aboutus.aspx">About Us</a>
                   <a href="home.aspx" class="active">Home</a>
                   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -252,12 +258,12 @@
         </div>
 
         <div style="font-size:50px; color:white; width:200px; height:50px; padding-top:50px; padding-left:50px;">
-                    AttendanceTracker
+                    The BlackHoods
                 </div>
         
         <h1 id="people">People Who Made It Possible</h1>
 
-            <a id="khizer" href="nouman.aspx" target="_blank" rel="noopener noreferrer" >
+            <a id="khizer" href="Nauman.aspx" target="_blank" rel="noopener noreferrer" >
                 <h2>Muhammad Nauman Saleem</h2>
                 <ul>
                     <li>21 and still counting</li>
@@ -267,7 +273,7 @@
 
             </a>
             <div class="blank"></div>
-            <a id="nouman" href="hunain_lakhani.aspx" target="_blank" rel="noopener noreferrer" >
+            <a id="nouman" href="Hunain.aspx" target="_blank" rel="noopener noreferrer" >
                 <h2>Hunain Lakhani</h2>
                 <ul>
                     <li>21 and still counting</li>
@@ -277,7 +283,7 @@
 
             </a>
             <div class="blank"></div>
-            <a id="zaid" href="ahad_jawed.aspx" target="_blank" rel="noopener noreferrer" >
+            <a id="zaid" href="Ahad.aspx" target="_blank" rel="noopener noreferrer" >
                 <h2>Ahad Jawed</h2>
                 <ul>
                     <li>21 and still counting</li>
@@ -286,7 +292,7 @@
                 </ul>
             </a>
             <div class="blank"></div>
-            <a id="javeria" href="shayan_tariq.aspx" target="_blank" rel="noopener noreferrer" >
+            <a id="javeria" href="Shayan.aspx" target="_blank" rel="noopener noreferrer" >
                 <h2>Shayan Tariq</h2>
                 <ul>
                     <li>21 and still counting</li>
@@ -298,70 +304,7 @@
         <div class="blank"></div>
         
 
-        <div id="bottom">
-           <div style="width:100%; height:70px; border:double;">
-                    <div style="float:left; color:cadetblue; font-size:25px; padding-top:30px; padding-left:100px;">
-                        Countries
-                    </div>
-                    <div style="float:left; color:cadetblue; font-size:25px; padding-top:30px; padding-left:150px;">
-                        AttendanceTracker
-                    </div>
-                    <div style="float:right; color:cadetblue; font-size:25px; padding-top:30px; padding-right:150px;">
-                        Follow Us
-                    </div>
-                    <div style="float:right; color:cadetblue; font-size:25px; padding-top:30px; padding-right:250px;">
-                        Account
-                    </div>
-                </div>
-                <div style="width:100%; height:250px; ">
-                    <div style=" float:left; color:aqua;  font-size:25px; padding-top:10px;  padding-left:30px; ">
-                        <ul style="list-style:none; text-align:center; padding-right:20px;">
-                            <li>
-                                Pakistan
-                            </li>
-                            
-                            <li>
-                                China
-                            </li>
-                            
-                            <li>
-                                Iran
-                            </li>
-                            
-                            <li>
-                                Iraq
-                            </li>
-                            <li>
-                                And Many More
-                            </li>
-                        </ul>
-                    </div>
-                    <div style=" float:left; color:aqua;  font-size:25px; padding-top:10px;  padding-left:80px;">
-                        <ul style="list-style:none; text-align:center;">
-                            <li>
-                                <a href="test.aspx" style="color:aqua; text-decoration:none;">Home</a>
-                            </li>
-                            <li>
-                                <a href="AboutUs.aspx" style="color:aqua; text-decoration:none;">About Us</a>
-                            </li>
-                            <li>
-                                <a href="Login.aspx" style="color:aqua; text-decoration:none;">Login</a>
-                            </li>
-                            <li>
-                                <a href="Signup.aspx" style="color:aqua; text-decoration:none;">Start For Free</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div style=" float:right; color:aqua;  font-size:25px; padding-top:10px;  padding-right:70px;">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook"></a>
-                        <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" class="fa fa-twitter"></a>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a>
-                    </div>
-                    <div style=" float:right; color:aqua; font-style:oblique;  font-size:25px; padding-top:20px;  padding-right:120px;">
-                        <a href="Login.aspx" style="color:aqua; text-decoration:none;">Login To Your Account</a>
-                    </div>
-                </div>
-        </div>
+       
     </form>
 </body>
 </html>

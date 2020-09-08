@@ -73,29 +73,43 @@
     <Content Include="Ahad.aspx" />
     <Content Include="Ahad1.jpg" />
     <Content Include="ahad2.jpg" />
-    <Content Include="ahad_jawed.aspx" />
+    <Content Include="animate.css" />
+    <Content Include="bahria.jpg" />
     <Content Include="bak.jpg" />
+    <Content Include="band.jpg" />
+    <Content Include="blog.html" />
+    <Content Include="bootstrap.css" />
+    <Content Include="bootstrap.js" />
     <Content Include="Contactus.html" />
     <Content Include="elice-moore-E--AUpYXbjM-unsplash.jpg" />
+    <Content Include="gallery.html" />
     <Content Include="home.aspx" />
     <Content Include="Hunain.aspx" />
     <Content Include="Hunain1.jpg" />
     <Content Include="hunain2.jpg" />
-    <Content Include="hunain_lakhani.aspx" />
     <Content Include="instructor.jpg" />
     <Content Include="jakpost.travel-2048x1152-wallpaper-22207.jpg" />
+    <Content Include="jquery.stellar.min.js" />
+    <Content Include="jquery.waypoints.min.js" />
+    <Content Include="main.js" />
+    <Content Include="media_query.css" />
+    <Content Include="modernizr-3.5.0.min.js" />
     <Content Include="Nauman.aspx" />
     <Content Include="nomi1.jpeg" />
     <Content Include="nomi11.jpg" />
     <Content Include="nomi2.jpeg" />
-    <Content Include="nouman.aspx" />
+    <Content Include="owl.carousel.css" />
+    <Content Include="owl.carousel.min.js" />
+    <Content Include="owl.theme.default.css" />
     <Content Include="second.PNG" />
     <Content Include="Shayan.aspx" />
     <Content Include="Shayan1.jpeg" />
     <Content Include="Shayan2.jpeg" />
-    <Content Include="shayan_tariq.aspx" />
+    <Content Include="shirt.jpg" />
     <Content Include="students.jpg" />
+    <Content Include="style_1.css" />
     <Content Include="tbh.jpeg" />
+    <Content Include="Videos.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -113,13 +127,6 @@
     <Compile Include="Ahad.aspx.designer.cs">
       <DependentUpon>Ahad.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ahad_jawed.aspx.cs">
-      <DependentUpon>ahad_jawed.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ahad_jawed.aspx.designer.cs">
-      <DependentUpon>ahad_jawed.aspx</DependentUpon>
-    </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -134,26 +141,12 @@
     <Compile Include="Hunain.aspx.designer.cs">
       <DependentUpon>Hunain.aspx</DependentUpon>
     </Compile>
-    <Compile Include="hunain_lakhani.aspx.cs">
-      <DependentUpon>hunain_lakhani.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="hunain_lakhani.aspx.designer.cs">
-      <DependentUpon>hunain_lakhani.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Nauman.aspx.cs">
       <DependentUpon>Nauman.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Nauman.aspx.designer.cs">
       <DependentUpon>Nauman.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="nouman.aspx.cs">
-      <DependentUpon>nouman.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="nouman.aspx.designer.cs">
-      <DependentUpon>nouman.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shayan.aspx.cs">
@@ -163,16 +156,12 @@
     <Compile Include="Shayan.aspx.designer.cs">
       <DependentUpon>Shayan.aspx</DependentUpon>
     </Compile>
-    <Compile Include="shayan_tariq.aspx.cs">
-      <DependentUpon>shayan_tariq.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="shayan_tariq.aspx.designer.cs">
-      <DependentUpon>shayan_tariq.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap.css.map" />
     <None Include="packages.config" />
+    <Content Include="style_1.css.map" />
+    <Content Include="style_1.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
