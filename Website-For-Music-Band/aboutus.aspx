@@ -244,12 +244,12 @@
 <body>
     <form id="form1" runat="server">
 
-        <div class="topnav" id="myTopnav">
+         <div class="topnav" id="myTopnav">
                   
-                  <a href="videos.html">Videos</a>
-                  <a href="photos.html">Photos</a>
-                  <a href="news.html">News</a>
                   <a href="Contactus.html">Contact Us</a>
+                  <a href="Videos.html">Videos</a>
+                  <a href="gallery.html">Photos</a>
+                  <a href="blog.html">News</a>
                   <a href="aboutus.aspx">About Us</a>
                   <a href="home.aspx" class="active">Home</a>
                   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
